@@ -1,0 +1,6 @@
+JuzzPig.MonoDroid.AMapLocationSDK 为定位SDK
+JuzzPig.MonoDroid.AMapSDK 为地图SDK，包含了公交查询服务。
+
+JuzzPig.AMap.Android.Demo  为安卓实例，大致做了一下，没有全部做完，代码量太大，太辛苦。
+
+作者：JuzzPig，欢迎加入Xamarin技术交流QQ群：230865920

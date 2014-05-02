@@ -1,0 +1,258 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='VisibleRegionCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr   path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='VisibleRegionCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr  path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='CircleOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr      path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='CircleOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+	 name="managedReturn">Java.Lang.Object</attr>
+
+  <attr  path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='CameraPositionCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+		 name="managedReturn">Java.Lang.Object[]</attr>
+
+  <attr     path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='CameraPositionCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+	 name="managedReturn">Java.Lang.Object</attr>
+  <attr  path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='BitmapDescriptorCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+	name="managedReturn">Java.Lang.Object[]</attr>
+  <attr    path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='BitmapDescriptorCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+	name="managedReturn">Java.Lang.Object</attr>
+
+  <attr   path="/api/package[@name='com.amap.api.maps2d']/class[@name='AMapOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+	 name="managedReturn">Java.Lang.Object[]</attr>
+  <attr   path="/api/package[@name='com.amap.api.maps2d']/class[@name='AMapOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+	name="managedReturn">Java.Lang.Object</attr>
+
+
+  <attr
+     path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='MarkerOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+	
+    name="managedReturn">Java.Lang.Object[]</attr>
+  <attr
+     path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='MarkerOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+		
+    name="managedReturn">Java.Lang.Object</attr>
+
+
+  <attr
+  path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='LatLngCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+			 name="managedReturn">Java.Lang.Object[]</attr>
+  <attr
+   path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='LatLngCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+		name="managedReturn">Java.Lang.Object</attr>
+
+  <attr
+  path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='TileOverlayOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+				 name="managedReturn">Java.Lang.Object[]</attr>
+  <attr
+        path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='TileOverlayOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+		name="managedReturn">Java.Lang.Object</attr>
+
+  <attr
+        path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='PolylineOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+			 name="managedReturn">Java.Lang.Object[]</attr>
+  <attr
+        path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='PolylineOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+		name="managedReturn">Java.Lang.Object</attr>
+
+  <attr
+  path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='LatLngCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+			 name="managedReturn">Java.Lang.Object[]</attr>
+  <attr
+   path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='LatLngCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+		name="managedReturn">Java.Lang.Object</attr>
+
+  <attr
+        path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='PolygonOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+			 name="managedReturn">Java.Lang.Object[]</attr>
+  <attr
+        path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='PolygonOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+		name="managedReturn">Java.Lang.Object</attr>
+
+  <attr
+        path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='MyLocationStyleCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+			 name="managedReturn">Java.Lang.Object[]</attr>
+  <attr
+        path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='MyLocationStyleCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+		name="managedReturn">Java.Lang.Object</attr>
+
+  <attr
+        path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='LatLngBoundsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+			 name="managedReturn">Java.Lang.Object[]</attr>
+  <attr
+        path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='LatLngBoundsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+		name="managedReturn">Java.Lang.Object</attr>
+
+  <attr
+        path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='GroundOverlayOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+			 name="managedReturn">Java.Lang.Object[]</attr>
+  <attr
+        path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='GroundOverlayOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+		name="managedReturn">Java.Lang.Object</attr>
+  <!--恢复被因名称冲突被隐去的方法-->
+  <attr
+    path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='MarkerOptions']/method[@name='position']" name="managedName">SetPosition</attr>
+  <attr
+     path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='MarkerOptions']/method[@name='icon']" name="managedName">SetIcon</attr>
+  <attr
+    path="/api/package[@name='com.amap.api.maps2d']/class[@name='AMapOptions']/method[@name='zoomGesturesEnabled']" name="managedName">SetZoomGesturesEnabled</attr>
+
+  <attr
+ path="/api/package[@name='com.amap.api.maps2d']/class[@name='AMapOptions']/method[@name='scrollGesturesEnabled']" name="managedName">SetScrollGesturesEnabled</attr>
+
+  <attr
+ path="/api/package[@name='com.amap.api.maps2d']/class[@name='AMapOptions']/method[@name='camera']" name="managedName">SetCamera</attr>
+
+  <attr
+    path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='MarkerOptions']/method[@name='title']"  name="managedName">SetTitle</attr>
+  <attr
+    path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='MarkerOptions']/method[@name='snippet']"  name="managedName">SetSnippet</attr>
+
+  <attr
+    path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='MyLocationStyle']/method[@name='myLocationIcon']" name="managedName">
+    SetMyLocationIcon
+  </attr>
+
+  <attr
+     path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='MyLocationStyle']/method[@name='radiusFillColor']"
+		 name="managedName">
+    SetRadiusFillColor
+  </attr>
+  <attr
+     path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='MyLocationStyle']/method[@name='strokeColor']"
+		 name="managedName">
+    SetStrokeColor
+  </attr>
+
+  <attr
+     path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='MyLocationStyle']/method[@name='strokeWidth']"
+		 name="managedName">
+    SetStrokeWidth
+  </attr>
+
+  <attr
+    path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='TileOverlayOptions']/method[@name='tileProvider']"
+    
+    name="managedName">
+    SetTileProvider
+  </attr>
+
+  <attr
+    path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='TileOverlayOptions']/method[@name='diskCacheEnabled']"
+    
+    name="managedName">
+    SetDiskCacheEnabled
+  </attr>
+
+  <attr
+    path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='TileOverlayOptions']/method[@name='diskCacheDir']"
+    
+    name="managedName">
+    SetDiskCacheDir
+  </attr>
+  <attr
+  path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='TileOverlayOptions']/method[@name='diskCacheSize']"
+    
+  name="managedName">
+    SetDiskCacheSize
+  </attr>
+
+
+  <attr
+  path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='PolylineOptions']/method[@name='color']"
+    
+  name="managedName">
+    SetColor
+  </attr>
+
+  <attr
+   path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='PolylineOptions']/method[@name='width']"
+  name="managedName">
+    SetWidth
+  </attr>
+
+
+  <attr
+    path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='PolygonOptions']/method[@name='strokeWidth']"
+ name="managedName">
+    SetStrokeWidth
+  </attr>
+  <attr
+   path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='PolygonOptions']/method[@name='strokeColor']"
+   name="managedName">
+    SetStrokeColor
+  </attr>
+
+  <attr
+   path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='PolygonOptions']/method[@name='fillColor']"
+   name="managedName">
+    SetFillColor
+  </attr>
+
+  <attr
+    path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='GroundOverlayOptions']/method[@name='transparency']"
+     name="managedName">
+    SetTransparency
+  </attr>
+
+
+
+  <attr
+    path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='GroundOverlayOptions']/method[@name='transparency']"
+     name="managedName">
+    SetTransparency
+  </attr>
+  <attr
+    
+     path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='GroundOverlayOptions']/method[@name='image']"
+  name="managedName">
+    SetImage
+
+  </attr>
+
+  <attr
+    path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='CircleOptions']/method[@name='center']"
+     name="managedName">
+    SetCenter
+
+  </attr>
+  <attr
+    path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='CircleOptions']/method[@name='radius']"
+     name="managedName">
+    SetRadius
+
+  </attr>
+  <attr
+    path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='CircleOptions']/method[@name='strokeColor']"
+     name="managedName">
+    SetStrokeColor
+
+  </attr>
+  <attr
+    path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='CircleOptions']/method[@name='fillColor']"
+     name="managedName">
+    SetFillColor
+
+  </attr>
+  <attr
+    path="/api/package[@name='com.amap.api.maps2d.model']/class[@name='CircleOptions']/method[@name='strokeWidth']"
+     name="managedName">
+    SetStrokeWidth
+
+  </attr>
+  <!--修复成员名与类名相同的问题-->
+
+  <attr
+     path="/api/package[@name='com.amap.api.services.busline']/class[@name='BusLineSearch']/method[@name='setOnBusLineSearchListener']"
+                name="eventName"
+        >BusLineSearchEventHandler</attr>
+  <attr
+    path="/api/package[@name='com.amap.api.services.busline']/class[@name='BusStationSearch']/method[@name='setOnBusStationSearchListener']"
+     name="eventName"
+        >BusStationSearchEventHandler</attr>
+</metadata>
